@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random numbers application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="page1" class="page active container">
+        <h1>random number</h1>
+        <div id="random-number">000000</div>
+        <button id="generate-btn" class="btn">generate random number</button>
+        <button id="scan-btn" class="btn">Scan</button>
+    </div>
+
+    <div id="page2" class="page container">
+        <h1>Enter the random number</h1>
+        <div class="input-container">
+            <input type="text" class="digit-input" maxlength="1" autofocus>
+            <input type="text" class="digit-input" maxlength="1">
+            <input type="text" class="digit-input" maxlength="1">
+            <input type="text" class="digit-input" maxlength="1">
+            <input type="text" class="digit-input" maxlength="1">
+            <input type="text" class="digit-input" maxlength="1">
+        </div>
+        <div>
+            <button id="done-btn" class="btn">Done</button>
+            <button id="forget-btn" class="btn">Forget</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
